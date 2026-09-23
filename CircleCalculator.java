@@ -6,14 +6,14 @@ public class CircleCalculator {
 
         // Prompt user for radius input
         System.out.print("Enter the radius of the circle: ");
-        double radius = scanner.nextDouble();
+        double rad = scanner.nextDouble();
 
         // Perform calculations using standard Math formulas
-        double area = Math.PI * Math.pow(radius, 2);
-        double circumference = 2 * Math.PI * radius; // Circumference is the perimeter of a circle
+        double area = Math.PI * Math.pow(rad, 2);
+        double circumference = 2 * Math.PI * rad; // Circumference is the perimeter of a circle
 
         // Display results rounded to 2 decimal places
-        System.out.printf("Radius: %.2f%n", radius);
+        System.out.printf("Radius: %.2f%n", rad);
         System.out.printf("Area: %.2f%n", area);
         System.out.printf("Circumference (Perimeter): %.2f%n", circumference);
 
